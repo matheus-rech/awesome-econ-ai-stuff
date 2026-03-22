@@ -69,7 +69,6 @@ Skills are organized by research workflow stage:
 ### 📐 Theory & Modeling
 - [latex-econ-model](_skills/theory/latex-econ-model/) - Write economic models in LaTeX
 - [general-equilibrium-model-builder](_skills/theory/general-equilibrium-model-builder/) - Build and solve Walrasian GE models in Julia
-- [game-theory-solver](_skills/theory/game-theory-solver/) - Solve and visualize game theory problems
 
 ### 📊 Data Management
 - [stata-data-cleaning](_skills/data/stata-data-cleaning/) - Clean and transform data in Stata
@@ -83,12 +82,10 @@ Skills are organized by research workflow stage:
 ### 📝 Academic Writing
 - [academic-paper-writer](_skills/writing/academic-paper-writer/) - Draft papers with proper structure
 - [latex-tables](_skills/writing/latex-tables/) - Generate publication-ready LaTeX tables
-- [referee-response](_skills/writing/referee-response/) - Draft referee report responses
 
 ### 🎯 Communication
 - [beamer-presentation](_skills/communication/beamer-presentation/) - Create Beamer slides
 - [econ-visualization](_skills/communication/econ-visualization/) - Publication-quality charts
-- [research-website](_skills/communication/research-website/) - Build academic project websites
 
 ---
 
