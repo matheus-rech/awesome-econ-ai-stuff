@@ -136,3 +136,14 @@ Assistant actions:
 - Removed the three bullets from README and clarified the earlier #24 session note in this file.
 - Opened PR: https://github.com/meleantonio/awesome-econ-ai-stuff/pull/27
 
+---
+
+## 2026-03-22 (Copy ~/.cursor/skills into repo + engineering category)
+
+User request:
+- Copy skills from `~/.cursor/skills/` into `_skills/engineering/` (sdd, techdebt, commit-push-pr, code-simplifier), integrate the Jekyll site: new filter tab, `download.js`, deploy workflow `_skills` path, README/CONTRIBUTING/submit form, SDD bundle zip for templates + reference.
+
+Assistant actions:
+- Added `_skills/engineering/` with normalized front matter (`workflow_stage: engineering`), synced `index.md` from `SKILL.md`.
+- Updated `index.html` (8 categories, Engineering filter + Liquid case), `assets/js/download.js` (SDD bundle constants, `general-equilibrium-model-builder` in zip-all), `_layouts/skill.html` (SDD full zip button), `.github/workflows/deploy.yml` (`_skills` root), `README.md`, `CONTRIBUTING.md`, `pages/submit.html`.
+
