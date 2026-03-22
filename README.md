@@ -87,6 +87,12 @@ Skills are organized by research workflow stage:
 - [beamer-presentation](_skills/communication/beamer-presentation/) - Create Beamer slides
 - [econ-visualization](_skills/communication/econ-visualization/) - Publication-quality charts
 
+### ⚙️ Engineering
+- [sdd](_skills/engineering/sdd/) - Spec-Driven Development lifecycle (requirements, design, tasks)
+- [techdebt](_skills/engineering/techdebt/) - Find and fix technical debt
+- [commit-push-pr](_skills/engineering/commit-push-pr/) - Commit, push, and open a pull request
+- [code-simplifier](_skills/engineering/code-simplifier/) - Simplify and clean up code after changes
+
 ---
 
 ## Creating Skills
