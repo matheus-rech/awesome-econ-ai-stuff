@@ -105,3 +105,14 @@ Assistant actions:
 - Identified the root cause: `SKILLS_LIST` in `download.js` was referencing paths starting with `skills/...` but the actual folder in the repository is `_skills/...` (with underscore prefix)
 - Updated all 12 skill paths in `SKILLS_LIST` from `skills/` to `_skills/` to match the actual folder structure
 - This fix ensures the fetch requests target the correct file paths, allowing the SKILL.md files to be downloaded and added to the zip file
+
+---
+
+## 2026-03-22 (GitHub issue #24 — README broken links)
+
+User request:
+- Fix GitHub issue #24 about the README (broken internal links).
+
+Assistant actions:
+- Issue: catalog and template links used `skills/...` but the repository stores skills under `_skills/` (Jekyll collection), so GitHub resolved links to non-existent paths.
+- Updated README: all skill catalog links, `Skill Template` link, and the `cp` quick-start example now use `_skills/` paths so links resolve on github.com.
