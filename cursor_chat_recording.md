@@ -116,10 +116,22 @@ User request:
 Assistant actions:
 - Issue: catalog and template links used `skills/...` but the repository stores skills under `_skills/` (Jekyll collection), so GitHub resolved links to non-existent paths.
 - Updated README: all skill catalog links, `Skill Template` link, and the `cp` quick-start example now use `_skills/` paths so links resolve on github.com.
+- Follow-up: removed three catalog lines (`game-theory-solver`, `referee-response`, `research-website`) because those directories are not present under `_skills/`; keeping them would still 404 on GitHub.
 
 User request:
 - Open a PR for the README fix.
 
 Assistant actions:
 - Branch `fix/readme-skill-links-issue-24`, commit, push to `origin`, opened PR: https://github.com/meleantonio/awesome-econ-ai-stuff/pull/26
+
+---
+
+## 2026-03-22 (README: remove catalog entries for missing skills)
+
+User request:
+- Verify and fix: README linked to `game-theory-solver`, `referee-response`, and `research-website` under `_skills/` but those directories do not exist; remove those lines; open a PR.
+
+Assistant actions:
+- Confirmed no `_skills/theory/game-theory-solver`, `_skills/writing/referee-response`, or `_skills/communication/research-website` in the repo.
+- Removed the three bullets from README and clarified the earlier #24 session note in this file.
 
