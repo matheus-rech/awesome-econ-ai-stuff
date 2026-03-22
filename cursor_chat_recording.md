@@ -134,4 +134,5 @@ User request:
 Assistant actions:
 - Confirmed no `_skills/theory/game-theory-solver`, `_skills/writing/referee-response`, or `_skills/communication/research-website` in the repo.
 - Removed the three bullets from README and clarified the earlier #24 session note in this file.
+- Opened PR: https://github.com/meleantonio/awesome-econ-ai-stuff/pull/27
 
