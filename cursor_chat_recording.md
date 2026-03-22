@@ -116,3 +116,10 @@ User request:
 Assistant actions:
 - Issue: catalog and template links used `skills/...` but the repository stores skills under `_skills/` (Jekyll collection), so GitHub resolved links to non-existent paths.
 - Updated README: all skill catalog links, `Skill Template` link, and the `cp` quick-start example now use `_skills/` paths so links resolve on github.com.
+
+User request:
+- Open a PR for the README fix.
+
+Assistant actions:
+- Branch `fix/readme-skill-links-issue-24`, commit, push to `origin`, opened PR: https://github.com/meleantonio/awesome-econ-ai-stuff/pull/26
+
